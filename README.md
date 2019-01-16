@@ -29,6 +29,7 @@ SENDER_NAME | Deserts | [必填]发件人
 SENDER_EMAIL | xxxxxx@qq.com | [必填]发件邮箱
 ADMIN_URL | https://xxx.leanapp.cn/ | [建议]Web主机二级域名，用于自动唤醒
 BLOGGER_EMAIL | xxxxx@gmail.com | [可选]博主通知收件地址，默认使用SENDER_EMAIL
+TEMPLATE_NAME | rainbow | [可选]通知邮件的模板（default和rainbow）
 
 </div>
 
@@ -195,3 +196,5 @@ lean deploy
 ## License
 
 [MIT License](https://github.com/panjunwen/LeanComment/blob/master/LICENSE)
+
+### 该Valine-Admin结合了两位大神的[https://github.98.tn/hexo-valine-modify/](https://github.98.tn/hexo-valine-modify/)，[https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)功能在一起。
